@@ -1,0 +1,9 @@
+Buổi 1: Tìm hiểu về Vue Instance
+Vue Instance là một đối tượng cốt lõi trong Vue.js, nơi mà bạn khởi tạo và quản lý ứng dụng Vue của mình. Mỗi Vue instance được tạo ra bằng cách gọi hàm new Vue() và nó là trung tâm điều phối của toàn bộ ứng dụng. Vue instance chịu trách nhiệm kết nối dữ liệu của ứng dụng với DOM và xử lý các thay đổi trong dữ liệu hoặc giao diện.
+Khi tạo một Vue instance, bạn có thể cung cấp nhiều tùy chọn như:
+•	el: Xác định phần tử DOM mà Vue instance sẽ gắn vào.
+•	data: Chứa các dữ liệu mà bạn muốn Vue quản lý và theo dõi.
+•	methods: Chứa các hàm mà bạn muốn sử dụng trong Vue instance.
+•	computed: Định nghĩa các thuộc tính tính toán dựa trên dữ liệu.
+•	watch: Giám sát các thay đổi trong dữ liệu để thực hiện các hành động cụ thể.
+•	mounted, created, updated, destroyed: Các lifecycle hooks cho phép bạn thực hiện các hành động trong các giai đoạn khác nhau của vòng đời Vue instance.
